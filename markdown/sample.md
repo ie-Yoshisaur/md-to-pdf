@@ -13,7 +13,7 @@ fontsize: 12pt
 
 例えば箇条書きのLaTexは以下のようになっている
 
-```{caption="LaTeXの箇条書き"}
+```{title="LaTeXの箇条書き"}
 \begin{itemize}
 \item hoge1
 \item hoge2
@@ -23,7 +23,7 @@ fontsize: 12pt
 
 一方で、markdownは以下のようになっている
 
-```{caption="markdownの箇条書き"}
+```{title="markdownの箇条書き"}
 - hoge1
 - hoge2
 - hpge3
