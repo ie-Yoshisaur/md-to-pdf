@@ -6,6 +6,7 @@
 - Execute `$ bash run.sh <name-of-md-file>`.
   - \<name-of-md-file\> is the name of the md file without the ".md" extention.
 - A PDF file will be generated in the pdf directory.
+
 # Diretory Structure
 ```
 .
@@ -22,3 +23,6 @@
 └── tex
     └── preamble.tex
 ```
+
+# Recommended LaTeX Math Equation Editing Tool
+- [https://latexeditor.lagrida.com/](https://latexeditor.lagrida.com/)
