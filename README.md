@@ -4,12 +4,13 @@
 # Usage
 - Place a md file in the markdown directory.
 - Execute `$ bash run.sh <name-of-md-file>`.
-  - \<name-of-md-file\> is the name of the md file without the "md" extention.
+  - \<name-of-md-file\> is the name of the md file without the ".md" extention.
 - A PDF file will be generated in the pdf directory.
 # Diretory Structure
 ```
 .
 ├── Dockerfile
+├── README.md
 ├── docker-compose.yml
 ├── images
 │   └── sample.png
@@ -17,5 +18,7 @@
 │   └── sample.md
 ├── pdf
 │   └── sample.pdf
-└── run.sh
+├── run.sh
+└── tex
+    └── preamble.tex
 ```
