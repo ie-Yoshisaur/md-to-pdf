@@ -1,0 +1,18 @@
+% adjust the position of an image to be displayed
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+% add frame to a coding block
+\usepackage{listings}
+\lstset{
+    numbers=left,
+    frame=single,
+    tabsize=2,
+    breaklines=true,
+}

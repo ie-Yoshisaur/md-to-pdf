@@ -13,7 +13,7 @@ fontsize: 12pt
 
 例えば箇条書きのLaTexは以下のようになっている
 
-```tex
+```{caption="LaTeXの箇条書き"}
 \begin{itemize}
 \item hoge1
 \item hoge2
@@ -23,7 +23,7 @@ fontsize: 12pt
 
 一方で、markdownは以下のようになっている
 
-```md
+```{caption="markdownの箇条書き"}
 - hoge1
 - hoge2
 - hpge3
@@ -62,7 +62,7 @@ fontsize: 12pt
 
 こんな風にかく
 
-```tex
+```{title="LaTeXの真ん中"}
 \begin{center}
 真ん中
 \end{center}
@@ -76,21 +76,21 @@ fontsize: 12pt
 
 右側にalignする場合は
 
-```tex
+```{title="LaTeXの右側"}
 \begin{flushright}
-右
+右側
 \end{flushright}
 ```
 
 こうすると、以下のようになる
 
 \begin{flushright}
-右
+右側
 \end{flushright}
 
 また、数式もLaTeXの表現力に頼ることになる
 
-```tex
+```{title="LaTeXの数式"}
 \begin{math}
 \int^{b}_{a} f(x) dx = \lim_{n \to \infty} \sum^{n-1}_{i=0} f(x_{i}) \Delta x
 \end{math}
@@ -104,7 +104,7 @@ fontsize: 12pt
 
 となる
 
-```tex
+```{title="LaTeXの数式2"}
 \begin{equation}
 \int^{b}_{a} f(x) dx = \lim_{n \to \infty} \sum^{n-1}_{i=0} f(x_{i}) \Delta x
 \end{equation}
