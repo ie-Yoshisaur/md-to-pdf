@@ -10,6 +10,7 @@
 ```
 .
 ├── Dockerfile
+├── README.md
 ├── docker-compose.yml
 ├── images
 │   └── sample.png
@@ -17,5 +18,7 @@
 │   └── sample.md
 ├── pdf
 │   └── sample.pdf
-└── run.sh
+├── run.sh
+└── tex
+    └── preamble.tex
 ```
