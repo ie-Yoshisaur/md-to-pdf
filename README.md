@@ -1,13 +1,12 @@
-# Setup
+## Setup
 - Start docker before executing the run.sh script.
 
-# Usage
+## Usage
 - Place a md file in the markdown directory.
-- Execute `$ bash run.sh <name-of-md-file>`.
-  - \<name-of-md-file\> is the name of the md file without the ".md" extention.
+- Execute `$ bash run.sh <file name>.md`.
 - A PDF file will be generated in the pdf directory.
 
-# Diretory Structure
+## Diretory Structure
 ```
 .
 ├── Dockerfile
@@ -24,5 +23,5 @@
     └── preamble.tex
 ```
 
-# Recommended LaTeX Math Equation Editing Tool
+## Recommended LaTeX Math Equation Editing Tool
 - [https://latexeditor.lagrida.com/](https://latexeditor.lagrida.com/)
